@@ -1,0 +1,9 @@
+00:04.109  blend            | Read blend: "C:\Users\itzlu\OneDrive\Documentos\ChatGPT\rico\02_Trabalhos_Reais\01_Projetos_Ativos\Della_Pucker_Arquitetura_Engenharia_Landing_Page\blender\residencia-rincao-v08.blend"
+C:\Users\itzlu\OneDrive\Documentos\ChatGPT\rico\02_Trabalhos_Reais\01_Projetos_Ativos\Della_Pucker_Arquitetura_Engenharia_Landing_Page\blender\render_seq_v08.py:38: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  holdout = bpy.data.materials.new('V08 holdout'); holdout.use_nodes = True; nt = holdout.node_tree; nt.nodes.clear()
+00:41.875  render           | Saved: 'C:\Users\itzlu\OneDrive\Documentos\ChatGPT\rico\02_Trabalhos_Reais\01_Projetos_Ativos\Della_Pucker_Arquitetura_Engenharia_Landing_Page\blender\sequence-v08\phase-00.png'
+SEQ_DONE {"seq_phase-00.png_seconds": 37.58, "build-seq/m-0.webp": 114218, "seq_phase-01.png_seconds": 90.42, "build-seq/m-1.webp": 14868, "seq_phase-02.png_seconds": 81.51, "build-seq/m-2.webp": 42988, "seq_phase-03.png_seconds": 75.1, "build-seq/m-3.webp": 33810, "seq_phase-04.png_seconds": 102.85, "build-seq/m-4.webp": 43050, "seq_phase-05.png_seconds": 77.2, "build-seq/m-5.webp": 44844}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit
+Error: Not freed memory blocks: 2, total unfreed memory 0.000046 MB

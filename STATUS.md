@@ -1,6 +1,15 @@
 # STATUS — Della & Pucker
 
-## Revisão vigente de 01/10/2026 — versão local 0.6.0
+## Revisão vigente de 01/10/2026 — versão local 0.8.0
+
+Pedido: aplicar a base `Landing_Premium_Base` com as fases 1–11 do briefing (diagnóstico, sistema de design, cabeçalho/logo, hero em camadas com construção 3D, seções, carrossel, animação, responsivo, acessibilidade/SEO, desempenho, verificação). Durante a rodada o usuário pediu a construção otimizada para celular: implementada com sequência de quadros do Blender. O vídeo reenviado é idêntico ao `references/motion-inspiration.mp4` (mesmo SHA-256). Lidos AGENTS da raiz/área/projetos e da base, README/STATUS/package. React não adotado (justificativa em `docs/relatorio-v08.md`).
+
+Verificações efetivas desta rodada: check/build aprovados; Playwright/Chrome em 360, 390, 430, 768, 1024, 1440, 1920 com overflow 0; zoom 200% sem overflow; construção desktop e mobile em 6 momentos; menu (foco, Esc, inert, trava de scroll, fechar no link), carrossel (toque, arraste, teclado, limites, miniaturas, rótulos), âncoras com offset, movimento reduzido e `?renderer=static`, contatos (mesmo destino wa.me, nada enviado), console sem erros. Lighthouse 13 mobile/desktop 2× cada; FPS do 3D medido em RTX 3050 Laptop (média 64–67 fps, p95 36 ms). Capturas `docs/qa/qa-v08-*.jpg`; relatórios em `output/qa-v08/`.
+
+Pendências reais: arquivo original da logo; aprovação dos textos alterados e do visual; autorização de logo/imagens; confirmação de contato/endereço; domínio para canonical/sitemap/robots; teste em aparelho físico e INP. Sem push, deploy ou mensagem ao cliente. Próxima ação: apresentar a prévia local 0.8.0.
+
+## Histórico — revisão de 01/10/2026, versão local 0.6.0
+
 
 Pedido: integrar recursos da base premium sem copiar identidade, corrigir logo/avatar e manter preto/grafite em toda a landing. Foram lidos mapa, AGENTS de raiz/área/projetos e da base, README/package/estado do cliente e base. Perfil oficial reconsultado no navegador; mesma logo de 150×150 px, bio/contato/serviços e projetos preservados. A circularidade observada anteriormente pertence ao avatar do Instagram, não à composição original da marca.
 

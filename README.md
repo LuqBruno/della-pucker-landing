@@ -1,10 +1,16 @@
 # Della & Pucker — prévia comercial
-Versão local 0.6.0, integração da base e correção da aplicação da logo em 01/10/2026. Demonstração independente, sem contratação, aprovação ou publicação confirmadas.
+Versão local 0.8.0 (01/10/2026), branch `della-pucker-v08-premium`. Demonstração independente, sem contratação, aprovação ou publicação confirmadas.
 
 ## Abrir e verificar
-Execute npm ci e npm run dev; prévia em http://localhost:3012/. npm run check verifica sintaxe; npm run build prepara dist. JavaScript preservado, sem migração para React. Dependências locais exatas: GSAP 3.15.0, Lenis 1.3.26, Embla 8.6.0, Three.js 0.186.1 e esbuild 0.28.2. script.js importa gallery.js; esbuild gera assets/site.js. Cena carregada separadamente por URL relativa ao módulo. Recursos 3D, Draco e imagens usam caminhos locais relativos.
+Execute npm ci e npm run dev; prévia em http://localhost:3012/. npm run check verifica sintaxe; npm run build prepara dist. JavaScript preservado, sem migração para React. Dependências locais exatas: GSAP 3.15.0, Lenis 1.3.26, Embla 8.6.0, Three.js 0.186.1 e esbuild 0.28.2. script.js importa gallery.js; esbuild gera assets/site.js, importado pelo index.html depois do load (ou na primeira interação). Cena carregada separadamente por URL relativa ao módulo. Recursos 3D, Draco e imagens usam caminhos locais relativos.
 
-## Revisão vigente — 0.6.0
+## Revisão vigente — 0.8.0
+
+Relatório completo: `docs/relatorio-v08.md`; diagnóstico: `docs/diagnostico-v08.md`. Sistema de design em tokens no `style.css` (preto, 6 grafites, branco quente, acento âmbar único; raios 12/24/40; grade 12/8/4; durações e curvas fixas). Logo vetorial `assets/logo-della-pucker.svg` (letras redesenhadas por medição do JPG oficial de 150 px, "&" traçado; não substitui o original, que segue pendente). Hero em camadas com nome monumental, grade técnica, círculos de 1 px, posters Cycles v08 com piso transparente e sombra de contato, título fora da colisão com o telhado.
+
+Construção: desktop capaz usa GLB + Three, carregado só por intenção, com câmera idêntica à do Blender (troca poster↔3D alinhada) e luz do frio ao âmbar; celular/tablet usa 7 quadros WebP do Blender trocados por opacidade (`assets/build-seq/`). Pin por `position: sticky` com espaço reservado no `<head>`. Movimento reduzido, economia de dados, aparelho limitado e `?renderer=static` mantêm o poster. Lighthouse 0.8 (2 execuções): mobile 92/98, LCP 3,0/2,1 s, CLS ≤0,013, TBT ~60 ms, 646 kB; desktop 84/97, LCP ~0,6 s (sem 3D acionado). Textos alterados: parágrafo de "Como começar" dividido em pergunta + 3 etapas; subtítulo da logo no rodapé.
+
+## Histórico — 0.6.0
 
 A base Landing_Premium_Base foi consultada como infraestrutura, não como template visual. GSAP/ScrollTrigger agora controla a construção e entradas curtas; Three continua responsável pela geometria, materiais e câmera fixa. Lenis somente em desktop com ponteiro fino, sem movimento reduzido; celular mantém scroll nativo. Embla substitui o arraste artesanal: avanço manual, continuidade visual, setas, dots, Home/End e limites. Engines não animam a mesma propriedade. Timelines, ticker, observadores e eventos possuem limpeza; retorno via cache de navegação retoma a cena.
 

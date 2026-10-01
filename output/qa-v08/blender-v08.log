@@ -1,0 +1,8 @@
+00:04.437  blend            | Read blend: "C:\Users\itzlu\OneDrive\Documentos\ChatGPT\rico\02_Trabalhos_Reais\01_Projetos_Ativos\Della_Pucker_Arquitetura_Engenharia_Landing_Page\blender\residencia-rincao-v07.blend"
+05:58.547  render           | Saved: 'C:\Users\itzlu\OneDrive\Documentos\ChatGPT\rico\02_Trabalhos_Reais\01_Projetos_Ativos\Della_Pucker_Arquitetura_Engenharia_Landing_Page\blender\residencia-rincao-v08-desktop.png'
+08:03.281  render           | Saved: 'C:\Users\itzlu\OneDrive\Documentos\ChatGPT\rico\02_Trabalhos_Reais\01_Projetos_Ativos\Della_Pucker_Arquitetura_Engenharia_Landing_Page\blender\residencia-rincao-v08-mobile.png'
+Janela de informações: Saved as "residencia-rincao-v08.blend"
+V08_COMPLETE {"residencia-rincao-v08-desktop.png_seconds": 353.63, "residencia-rincao-v08-desktop.png_frame": [2400, 1500, 0, 0, 2400, 1500], "house-v08-1800.webp": [1800, 1125, 107866], "house-v08-1200.webp": [1200, 750, 59234], "residencia-rincao-v08-mobile.png_seconds": 120.65, "residencia-rincao-v08-mobile.png_frame": [1400, 1400, 0, 0, 1400, 1400], "house-v08-mobile-900.webp": [900, 900, 43000], "loft-arquitetura-800.webp": [800, 499, 44216], "projeto-estrutural-800.webp": [800, 800, 92866], "residencia-em-construcao-800.webp": [800, 533, 66242]}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit
