@@ -6,7 +6,9 @@ Pedido: aplicar a base `Landing_Premium_Base` com as fases 1–11 do briefing (d
 
 Verificações efetivas desta rodada: check/build aprovados; Playwright/Chrome em 360, 390, 430, 768, 1024, 1440, 1920 com overflow 0; zoom 200% sem overflow; construção desktop e mobile em 6 momentos; menu (foco, Esc, inert, trava de scroll, fechar no link), carrossel (toque, arraste, teclado, limites, miniaturas, rótulos), âncoras com offset, movimento reduzido e `?renderer=static`, contatos (mesmo destino wa.me, nada enviado), console sem erros. Lighthouse 13 mobile/desktop 2× cada; FPS do 3D medido em RTX 3050 Laptop (média 64–67 fps, p95 36 ms). Capturas `docs/qa/qa-v08-*.jpg`; relatórios em `output/qa-v08/`.
 
-Pendências reais: arquivo original da logo; aprovação dos textos alterados e do visual; autorização de logo/imagens; confirmação de contato/endereço; domínio para canonical/sitemap/robots; teste em aparelho físico e INP. Sem push, deploy ou mensagem ao cliente. Próxima ação: apresentar a prévia local 0.8.0.
+Publicação da prévia (pedido do usuário, 01/10/2026): repositório público https://github.com/LuqBruno/della-pucker-landing, Pages em https://luqbruno.github.io/della-pucker-landing/. Workflow concluído com sucesso; conferidos no ar: HTTP 200 da página e dos recursos, construção mobile (sequência) e desktop (3D), sem overflow, `noindex` ativo; vídeo/quadros de inspiração e `dev-scene.html` não publicados (404). Nenhuma mensagem enviada ao cliente.
+
+Pendências reais: arquivo original da logo; aprovação dos textos alterados e do visual; autorização de logo/imagens; confirmação de contato/endereço; domínio para canonical/sitemap/robots; teste em aparelho físico e INP. Próxima ação: enviar o link ao cliente (pelo usuário) e colher aprovação; remover `noindex` só na publicação definitiva.
 
 ## Histórico — revisão de 01/10/2026, versão local 0.6.0
 
