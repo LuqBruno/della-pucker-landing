@@ -1,0 +1,4 @@
+/* Official Google Fonts Latin subsets include Portuguese accented characters. */
+@font-face{font-family:'Manrope';font-style:normal;font-weight:500 600;font-display:swap;src:url('manrope-latin.woff2') format('woff2')}
+@font-face{font-family:'DM Sans';font-style:normal;font-weight:400 600;font-display:swap;src:url('dm-sans-latin.woff2') format('woff2')}
+@font-face{font-family:'DM Mono';font-style:normal;font-weight:400;font-display:swap;src:url('dm-mono-latin.woff2') format('woff2')}
