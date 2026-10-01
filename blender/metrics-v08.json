@@ -1,0 +1,62 @@
+{
+  "residencia-rincao-v08-desktop.png_seconds": 353.63,
+  "residencia-rincao-v08-desktop.png_frame": [
+    2400,
+    1500,
+    153,
+    254,
+    1794,
+    878
+  ],
+  "house-v08-1800.webp": [
+    1800,
+    881,
+    123456
+  ],
+  "house-v08-1200.webp": [
+    1200,
+    587,
+    70052
+  ],
+  "residencia-rincao-v08-mobile.png_seconds": 120.65,
+  "residencia-rincao-v08-mobile.png_frame": [
+    1400,
+    1400,
+    65,
+    400,
+    1044,
+    550
+  ],
+  "house-v08-mobile-900.webp": [
+    900,
+    474,
+    48260
+  ],
+  "loft-arquitetura-800.webp": [
+    800,
+    499,
+    44216
+  ],
+  "projeto-estrutural-800.webp": [
+    800,
+    800,
+    92866
+  ],
+  "residencia-em-construcao-800.webp": [
+    800,
+    533,
+    66242
+  ],
+  "seq_phase-00.png_seconds": 37.58,
+  "build-seq/m-0.webp": 114218,
+  "seq_phase-01.png_seconds": 90.42,
+  "build-seq/m-1.webp": 14868,
+  "seq_phase-02.png_seconds": 81.51,
+  "build-seq/m-2.webp": 42988,
+  "seq_phase-03.png_seconds": 75.1,
+  "build-seq/m-3.webp": 33810,
+  "seq_phase-04.png_seconds": 102.85,
+  "build-seq/m-4.webp": 43050,
+  "seq_phase-05.png_seconds": 77.2,
+  "build-seq/m-5.webp": 44844
+}
